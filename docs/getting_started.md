@@ -2,6 +2,8 @@
 
 Minimum valid version: **1.0.2**
 
+> 📚 **Want to learn in depth?** Check out the comprehensive [educational documentation](/learning/README_en.md) that explains the code line by line!
+
 ## 1) Prerequisites
 - VS Code
 - PlatformIO extension
