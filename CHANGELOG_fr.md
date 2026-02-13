@@ -1,6 +1,10 @@
 # Journal des modifications
 
-Version minimale valide : **1.0.9**
+Version minimale valide : **1.0.10**
+
+## [1.0.10] - 2026-02-13
+1. Ajout du document de release notes pour la version 1.0.9 en anglais et en français.
+2. Mise à jour des références de version minimale valide dans la documentation.
 
 ## [1.0.9] - 2026-02-13
 1. Réduction de la verbosité par défaut au démarrage pour garder une sortie du moniteur série lisible.

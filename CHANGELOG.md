@@ -1,6 +1,10 @@
 # Changelog
 
-Minimum valid version: **1.0.9**
+Minimum valid version: **1.0.10**
+
+## [1.0.10] - 2026-02-13
+1. Added the release notes document for version 1.0.9 in English and French.
+2. Updated documentation minimum valid version references.
 
 ## [1.0.9] - 2026-02-13
 1. Reduced default startup log verbosity to keep serial monitor output readable.
