@@ -54,6 +54,10 @@ static String buildInfoJson() {
 
 void setup() {
     Serial.begin(115200);
+    unsigned long serialWaitStart = millis();
+    while (!Serial && (millis() - serialWaitStart < 3000)) {
+        delay(10);
+    }
     delay(200);
 
     initLogging();

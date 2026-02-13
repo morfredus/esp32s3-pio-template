@@ -1,6 +1,14 @@
 # Changelog
 
-Minimum valid version: **1.0.7**
+Minimum valid version: **1.0.9**
+
+## [1.0.9] - 2026-02-13
+1. Reduced default startup log verbosity to keep serial monitor output readable.
+2. Set `CORE_DEBUG_LEVEL=3` and runtime ESP log level to `INFO` while preserving project startup status logs.
+
+## [1.0.8] - 2026-02-13
+1. Enabled `CORE_DEBUG_LEVEL=5` in PlatformIO build flags to ensure startup `ESP_LOG*` messages are emitted.
+2. Added a short USB CDC serial attach window at boot to improve capture of early startup logs in the serial monitor.
 
 ## [1.0.7] - 2026-02-13
 1. Prefixed OLED version display with "v".

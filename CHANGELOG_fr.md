@@ -1,6 +1,14 @@
 # Journal des modifications
 
-Version minimale valide : **1.0.7**
+Version minimale valide : **1.0.9**
+
+## [1.0.9] - 2026-02-13
+1. Réduction de la verbosité par défaut au démarrage pour garder une sortie du moniteur série lisible.
+2. Passage de `CORE_DEBUG_LEVEL=3` et du niveau runtime ESP à `INFO`, tout en conservant les logs d'état importants du projet.
+
+## [1.0.8] - 2026-02-13
+1. Activation de `CORE_DEBUG_LEVEL=5` dans les options de build PlatformIO pour garantir l'émission des messages `ESP_LOG*` au démarrage.
+2. Ajout d'une courte fenêtre d'attache série USB CDC au boot pour mieux capturer les logs précoces dans le moniteur série.
 
 ## [1.0.7] - 2026-02-13
 1. Ajout du préfixe "v" devant la version affichée sur l'OLED.

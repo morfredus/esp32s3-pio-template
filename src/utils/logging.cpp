@@ -23,5 +23,5 @@ static int serialVprintf(const char* format, va_list args) {
 void initLogging() {
     Serial.setDebugOutput(true);
     esp_log_set_vprintf(serialVprintf);
-    esp_log_level_set("*", ESP_LOG_DEBUG);
+    esp_log_level_set("*", ESP_LOG_INFO);
 }

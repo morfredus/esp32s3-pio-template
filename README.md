@@ -12,7 +12,7 @@
 > 🎓 **Complete template with line-by-line educational documentation**  
 > Perfect for learning C++, PlatformIO, and ESP32 embedded development
 
-Minimum valid version: **1.0.7**
+Minimum valid version: **1.0.9**
 
 ## 🚀 What is this?
 
